@@ -151,6 +151,12 @@
           "synopsis": "/jira:issues-by-component <project-key> [time-period] [--component component-name] [--assignee username] [--reporter username] [--status status] [--search search-term] [--search-description]"
         },
         {
+          "argument_hint": "<project-key> [component] [--max-points number]",
+          "description": "Plan a sprint with intelligent work prioritization based on epics and backlog",
+          "name": "plan-sprint",
+          "synopsis": "/jira:plan-sprint <project-key> [component] [--max-points number]"
+        },
+        {
           "argument_hint": "[--github-project <org/repo>] [--jira-project <key>] [--profile <name>] [--porcelain] [--output json|yaml]",
           "description": "Reconcile state mismatches between GitHub and Jira issues",
           "name": "reconcile-github",
